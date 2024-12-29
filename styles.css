@@ -1,0 +1,26 @@
+body {
+    font-family: 'Arial Rounded MT';
+    padding: 1.5rem;
+}
+
+.box>div:first-child {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 0.5rem 1.5rem;
+}
+
+.box .answer {
+    margin: 1rem 0;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 0 1.5rem;
+    display: none;
+}
+
+.box .answer.show {
+    display: block;
+}
